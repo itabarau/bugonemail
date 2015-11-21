@@ -28,7 +28,6 @@ class BugeException {
             $request['fullUrl'] = Request::fullUrl();
             $request['input_get'] = $_GET;
             $request['input_post'] = $_POST;
-            $request['input_old'] = Request::old();
             $request['file'] = Request::file();
             $request['header'] = Request::header();
             $request['server'] = Request::server();
